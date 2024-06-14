@@ -414,18 +414,16 @@ public class review {
 			
 			driver1.findElement(By.xpath("//button[@class='gd-ui-button css-5jp6uo css-1mg0y8g e5tvpqr2']")).click();
 			
-			Thread.sleep(2000);
+			Thread.sleep(2000);// sleep
 			
 			
-			//Generate a temp email 
-			
-			driver.get("https://fakeemail.net/");
-		
-			driver.manage().window().maximize();	//maximize window 
-			
-
-			Thread.sleep(5000); 
-		
+//			//Generate a temp email 
+//			
+//			driver.get("https://fakeemail.net/");
+//		
+//			driver.manage().window().maximize();	//maximize window 
+//			
+//			Thread.sleep(5000); 	
 	}
 
 	// Method to make a POST API call and return the response as a string
